@@ -9,8 +9,8 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: ☬ 𝕮𝖍𝖆𝖓𝖉𝖗𝖀 ☬ 𓃰
-★ Username: @ChandrU_AK"""
+    MY_OWNER_TXT = """★ Name: кαятнι¢к мяк
+★ Username: @Karthickmrk"""
 
     STATUS_TXT = """<b>╭━━━━━━━━❰sᴛᴀᴛᴜs ʙᴀʀ❱══❍⊱❁۪۪
 ┣⪼𖨠 📁 ᴛᴏᴛᴀʟ ꜰɪʟᴇs: <code>{}</code>
@@ -19,7 +19,7 @@ class script(object):
 ┣⪼𖨠 ♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
 ┣⪼𖨠 ✨ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ┣⪼𖨠 🆓 ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
-╰━━━━❰ʜᴀʀɪ ʙᴏᴛᴢ❱━━━═❍⊱❁۪۪</b>"""
+╰━━━━❰мяк ʙᴏᴛᴢ❱━━━═❍⊱❁۪۪</b>"""
 
     NEW_GROUP_TXT = """#NewGroup
 Title - {}
@@ -38,7 +38,7 @@ I can't find the <b>{}</b> in my database! 🥲
 👉 ꜱᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴩᴇʟʟɪɴɢ.
 👉 ᴩʟᴇᴀꜱᴇ ʀᴇᴀᴅ ᴛʜᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ ᴛᴏ ɢᴇᴛ ʙᴇᴛᴛᴇʀ ʀᴇꜱᴜʟᴛꜱ.
 👉 ᴄʜᴇᴄᴋ ᴛʜᴇ ᴍᴏᴠɪᴇ ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ.
-👉ʀᴇᴩᴏʀᴛ @ChandrU_AK ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ꜰɪɴᴅ."""
+👉ʀᴇᴩᴏʀᴛ @Karthickmrk ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ꜰɪɴᴅ."""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
@@ -82,7 +82,7 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ: {message.from_user.mention}
 ©️ ᴘᴏᴡᴇʀᴅ ʙʏ: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<b>[{file_name}](https://t.me/kmsmovies1)\n\n<b>•────•────────•────•\n📌 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+J5zlO5boIu9mZGY1)\n🎬 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+W4cB_0g7ZWU2NWM1)\n•────•────────•────•\n\n©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [KMS ʙᴏᴛᴢ](https://t.me/kmsmovies1)</b>"</b>
+    FILE_CAPTION = """<b>[{file_name}](https://t.me/Karthick_mrk4)\n\n<b>•────•────────•────•\n📌 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Karthick_mrkMoviereq)\n🎬 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/NewHDMovies2029)\n•────•────────•────•\n\n©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [мяк ʙᴏᴛᴢ](https://t.me/Karthick_mrk4)</b>"</b>
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
@@ -124,11 +124,11 @@ I can't find the <b>{}</b> in my database! 🥲
     
     SOURCE_TXT = """<b>ɴᴀᴍᴀꜱᴛᴇ ᴀʟʟ 🎉🎊
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/kmsmovies1>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/Karthick_mrk4>ʜᴇʀᴇ</a>
 
 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴀᴋᴇ ᴀ ʙᴏᴛ ʟɪᴋᴇ ᴛʜɪꜱ  -
-<a href=https://t.me/Team_Admins_2023>KMS ʙᴏᴛᴢ</a>
-<a href=https://t.me/ChandrU_AK>☬ 𝕮𝖍𝖆𝖓𝖉𝖗𝖀 ☬ 𓃰</a></b>"""
+<a href=https://t.me/Karthick_mrk5>мяк ʙᴏᴛᴢ</a>
+<a href=https://t.me/Karthickmrk>кαятнι¢к мяк</a></b>"""
 
     PREMIUM_PLAN_TEXT = """<b><i><u>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - </u>
 
