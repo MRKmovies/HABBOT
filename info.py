@@ -17,17 +17,17 @@ def is_valid_ip(ip):
     return re.match(ip_pattern, ip) is not None
 
 # Bot information
-API_ID = environ.get('API_ID', '15671595')
+API_ID = environ.get('API_ID', '29576043')
 if len(API_ID) == 0:
     print('Error - API_ID is missing, exiting now')
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', 'bb8f36f9c39a24c7f8b2acbc7ea8c60a')
+API_HASH = environ.get('API_HASH', 'd5d6f3749518a9302c43e2e865237a23')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '7410534278:AAFWkZLNCg644yolgX5zD4mMTnKuM9X0Vi0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5838543730:AAGdUyyT6EGq4JgFQG2_S34P2NIXBBRWJJQ')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -37,7 +37,7 @@ PORT = int(environ.get('PORT', '8080'))
 PICS = (environ.get('PICS', 'https://graph.org/file/b670dd1b610affe4944d7.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '7253187871')
+ADMINS = environ.get('ADMINS', '768021785 661301615')
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
@@ -45,10 +45,10 @@ else:
     ADMINS = [int(admins) for admins in ADMINS.split()]
 
 # Channels
-INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1001603505179 -1001810293410').split()]
+INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002216888364').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002119063158')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002318981183')
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
@@ -64,7 +64,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://New:New@cluster0.29hkq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://karthickmrkom:Karthick2024@cluster0.hhjpq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
@@ -72,10 +72,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Kr_Movie2')
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/TG_BOTS_UPDATE")
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+NABTLpcBvvU3MGY9')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://telegram.me/+xJVMXcAJbgE4MGQ1')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Karthick_mrk5')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/Karthickmrk")
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Karthick_mrk4')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://telegram.me/NewHDMovies2029')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+tlQ5RkB4Z7wzYmE1")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://telegram.me/+n3NZ2hc1cbs0ZDJl")
 
@@ -113,7 +113,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'harikushal234@okicici')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002210651858")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002384058034")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
